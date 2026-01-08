@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main() {
-    printf("Hello Git\n");
-    return 0;
+    int array[] = {1,2,2,3};
+    printf("%d",(sizeof(array)/sizeof(array[0])));
 }
