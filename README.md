@@ -68,7 +68,9 @@ g++ filename.cpp -o filename
 python filename.py
 ```
 ### HTML / CSS
+```
 Open the .html file directly in a web browser
+```
 ---
 
 🧠 Development Practices
