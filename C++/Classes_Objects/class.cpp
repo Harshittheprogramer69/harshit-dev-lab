@@ -7,8 +7,8 @@ class CAR {
     public:
         string Car_model;
         string Car_Brand;
-        void Details() {
-            Car_number++;
+        void Details() { // Show Details Given in Int MAIN
+            Car_number++; 
             cout << "Car Number: " << Car_number << endl;
             cout << "Car Model: " << Car_model << endl;
             cout << "Car Brand: " << Car_Brand << endl;
@@ -16,7 +16,7 @@ class CAR {
 };
 
 int main() {
-    CAR spresso;
+    CAR spresso; // Can be Any name
     spresso.Car_Brand = "MARUTI";
     spresso.Car_model = "VXI";
     spresso.Details();
