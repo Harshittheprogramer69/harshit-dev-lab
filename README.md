@@ -58,17 +58,16 @@ Each folder is organized by language to maintain clarity and separation of conce
 gcc filename.c -o filename
 ./filename
 ```
-C++
+### C++
 ```bash
 g++ filename.cpp -o filename
 ./filename
 ```
-Python
+### Python
 ```bash
 python filename.py
 ```
-
-HTML / CSS
+### HTML / CSS
 Open the .html file directly in a web browser
 ---
 
