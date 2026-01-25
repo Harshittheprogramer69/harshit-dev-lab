@@ -6,7 +6,6 @@
 a.exe
 
 # ===== Build folders =====
-build/
 bin/
 
 # ===== VS Code =====
