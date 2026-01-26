@@ -6,9 +6,9 @@ int main() {
     printf("Enter the basic pay of the employee: ");
     scanf("%f", &basic);
 
-    hra = 0.10 * basic;  // 10% of basic
-    ta  = 0.05 * basic;  // 5% of basic
-    it  = 0.025 * basic; // 2.5% of basic
+    hra = 0.10 * basic;  
+    ta  = 0.05 * basic;  
+    it  = 0.025 * basic; 
 
     grossSalary = basic + hra + ta - it;
 
