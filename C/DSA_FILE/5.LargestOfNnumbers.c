@@ -9,8 +9,8 @@ int main() {
     scanf("%d",&Maximum);
 
     for(i = 2;i<=n;i++) {
-        printf("Enter Number:");
-        scanf("%d",Number);
+        printf("Enter Number %d: ",i);
+        scanf("%d",&Number);
 
         if(Number > Maximum) {
             Maximum = Number;

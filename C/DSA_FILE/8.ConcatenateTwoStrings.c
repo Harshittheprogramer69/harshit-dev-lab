@@ -4,10 +4,7 @@
 int main() {
     char name[] = "Harshit ";
     char surname[] = "Khanna";
-
     strcat(name,surname);
-
     printf("%s",name);
-
     return 0;
 }

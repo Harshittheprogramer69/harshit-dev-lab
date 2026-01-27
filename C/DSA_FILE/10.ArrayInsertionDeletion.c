@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &n);
 
     printf("Enter elements:\n");
-    for (i = 1; i <= n; i++) {
+    for (i = 0; i < n; i++) {
         printf("Enter Element[%d]: ",i);
         scanf("%d", &array[i]);
     }
@@ -26,7 +26,7 @@ int main() {
         printf("Enter value: ");
         scanf("%d", &value);
 
-        for (i = n; i >= position; i--) {
+        for (i = n - 1; i >= position; i--) {
             array[i + 1] = array[i];
         }
 
@@ -41,14 +41,14 @@ int main() {
         printf("Enter position to delete: ");
         scanf("%d", &position);
 
-        for (i = position; i < n; i++) {
+        for (i = position; i < n - 1; i++) {
             array[i] = array[i + 1];
         }
 
         n--;
 
         printf("Array after deletion:\n");
-        for (i = 1; i <= n; i++) {
+        for (i = 0; i < n; i++) {
             printf("%d ", array[i]);
         }
     } else {
