@@ -18,12 +18,6 @@ class CARS{
             this->company = company;
             company_count++;
         }
-        virtual void display() const {
-            cout << "Company: " << company << ", Total cars: " << total_cars << endl;        
-        }
-        virtual ~CARS() {
-            cout << "Company fell apart" << endl;
-        }
         void setTotalCars(int total) {
             if(total >= 0) {
                 total_cars = total;
@@ -37,6 +31,12 @@ class CARS{
         }
         static int getCompanyCount() {
             return company_count;   
+        }
+        virtual void display() const {
+            cout << "Company: " << company << ", Total cars: " << total_cars << endl;        
+        }
+        virtual ~CARS() {
+            cout << "Company fell apart" << endl;
         }
 };
 
