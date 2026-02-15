@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int a, b;
     char op,ans;
-    char YON;
+    string YON;
     cin >> a;
     cin >> op;
     cin >> b; 
