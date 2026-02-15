@@ -1,0 +1,16 @@
+// Example 3.4
+#include <iostream>
+#include <iomanip> // for setw
+
+using namespace std;
+
+int main () 
+{
+    int Basic = 950, Allowance = 95, Total = 1045;
+
+    cout << setw(10) << "Basic" << setw(10) << Basic << endl
+         << setw(10) << "Allowance" << setw(10) << Allowance << endl
+         << setw(10) << "Total" << setw(10) << Total << endl;
+
+    return 0;
+}
