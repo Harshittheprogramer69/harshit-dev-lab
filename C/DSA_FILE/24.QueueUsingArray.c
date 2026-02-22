@@ -19,7 +19,7 @@ void ENQUEUE(int value) {
     rear++;
     queue[rear] = value;
 
-    printf("Element added sucessfully\n");
+    printf("Element added successfully\n");
 }
 
 void DEQUEUE() {
