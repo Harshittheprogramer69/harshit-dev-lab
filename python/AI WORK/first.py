@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="vAIzaSyAnlaAOrpt4t787JVsqDr0JZOdfpSWwzTA")
+client = genai.Client("API_KEY")
 
 while True:
     msg = input("You: ")
